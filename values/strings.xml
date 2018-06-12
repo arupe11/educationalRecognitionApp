@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="welcome1">Escoge un nivel.</string>
+
+    <string name="nivel1">   Fácil</string>
+    <string name="nivel2">   Medio</string>
+    <string name="nivel3">   Difícil</string>
+
+    <string name="s1">Secuencia 1 (Flan)</string>
+    <string name="s2">Secuencia 2 (Pez)</string>
+    <string name="s3">Secuencia 1 (Nieve)</string>
+    <string name="s4">Secuencia 2 (Tobogán)</string>
+    <string name="s5">Secuencia 1 (Lluvia)</string>
+    <string name="s6">Secuencia 2 (Pintor)</string>
+
+    <string name="desc1">flan</string>
+    <string name="desc2">pez</string>
+    <string name="desc3">nieve</string>
+    <string name="desc4">tobogan</string>
+    <string name="desc5">lluvia</string>
+    <string name="desc6">pintor</string>
+
+    <string name="enhorabuena">¡Enhorabuena!</string>
+    <string name="enhorabuenaTexto">¡Has ordenado la secuencia correctamente!</string>
+    <string name="vaya">¡Vaya!</string>
+    <string name="vayaTexto">¡No es el orden correcto!</string>
+    <string name="volverMenu">Volver al menú</string>
+    <string name="colorFail">¡Ups!</string>
+    <string name="colorFailTexto">Parece que no estás usando las tarjetas adecuadas...</string>
+
+
+
+
+    <string name="info">\n¡Bienvenido!\n\n
+    Esta app se ha desarrollado como método de ayuda para la autocorrección de juegos de tipo tempo-secuencial
+    en el ámbito educativo.\n
+    Estos juegos consisten en la ordenación temporal de tarjetas físicas. Hay 3 niveles distintos según el número de tarjetas
+        que el usuario debe ordenar de manera lógica:\n\n
+    Fácil: 3 tarjetas\n
+    Intermedio: 4 tarjetas\n
+    Difícil: 5 tarjetas\n\n
+        Dentro de cada nivel hay distintas secuencias entre las que elegir.
+        Sólo tienes que escoger la secuencia, ordenar las tarjetas y utilizar la app para comprobar si lo has hecho bien!
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my__dialog">My_Dialog</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

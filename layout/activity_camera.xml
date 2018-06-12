@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.opencv.android.JavaCameraView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/OpenCvView"
+        android:screenOrientation="landscape"
+        opencv:show_fps="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"  />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:padding="70dp"
+        android:progressTint="@android:color/holo_green_light"
+        android:visibility="visible"
+        tools:ignore="ObsoleteLayoutParam"
+        tools:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>
